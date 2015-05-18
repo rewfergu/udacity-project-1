@@ -1,0 +1,118 @@
+body {
+	font: 16px/1.5 'Lato', sans-serif;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0px 20px;
+}
+
+/* header */
+
+header {
+	text-align: center;
+	margin-bottom: 2rem;
+	border-bottom: 3px solid #7B8090;
+	padding: 1rem 0;
+}
+
+.logo {
+	width: 100px;
+}
+
+.who-am-i {
+	width: 100%;
+	text-align: center;
+	color: #4C5673;
+}
+
+.who-am-i .name {
+	margin: 0;
+	font-size: 1.75rem;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.who-am-i .title {
+	margin: 0;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+@media (min-width: 600px) {
+	header {
+		text-align: left;
+		display: flex;
+	}
+	
+	.who-am-i {
+		text-align: right;
+	}
+	
+	.who-am-i .name {
+		font-size: 48px;
+	}
+}
+
+/* main content */
+
+section {
+	margin-bottom: 2rem;
+}
+
+section img {
+	max-width: 100%;
+	height: auto;
+}
+
+.featured.title {
+	width: 100%;
+	color: #7B8090;
+	font-size: 32px;
+	text-align: center;
+}
+
+.work-examples {
+	
+}
+
+.work-example {
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	color: #7B8090;
+	margin-bottom: 2rem;
+}
+
+.work-title {
+	text-transform: uppercase;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 100;
+	color: #4C5673
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+	.featured.title {
+		text-align: left;
+	}
+	
+	.work-examples {
+		display: flex;
+		margin-right: -1rem;
+		margin-left: -1rem;
+	}
+	
+	.work-example {
+		width: 33.33%;
+		padding: 0 1rem;
+	}
+}
