@@ -57,11 +57,11 @@ header {
 
 /* main content */
 
-section {
+.hero {
 	margin-bottom: 2rem;
 }
 
-section img {
+section img, div img {
 	max-width: 100%;
 	height: auto;
 }
