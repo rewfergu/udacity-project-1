@@ -67,7 +67,7 @@ div img {
 	height: auto;
 }
 
-.featured.title {
+.featured-title {
 	width: 100%;
 	color: #7b8090;
 	font-size: 32px;
@@ -90,7 +90,7 @@ div img {
 a {
 	text-decoration: none;
 	font-weight: 100;
-	color: #4c5673
+	color: #4c5673;
 }
 
 a:hover {
@@ -98,7 +98,7 @@ a:hover {
 }
 
 @media (min-width: 600px) {
-	.featured.title {
+	.featured-title {
 		text-align: left;
 	}
 
